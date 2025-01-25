@@ -1,5 +1,7 @@
 # Animal Crossing: Pocket Camp Complete - Unofficial Camper Card Editor
 
+*Looking for camper cards with specific villagers? Check out the* [Villager List](https://github.com/jeremy-friesen/acpc-qr-editor/blob/main/villagerList.md)
+
 How to Use:
  - go to https://jeremy-friesen.github.io/acpc-qr-editor/
  - upload a camper card file

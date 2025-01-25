@@ -80,14 +80,30 @@ button {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 10px 20px;
-    margin-top: 10px;
+    padding: 6px 12px;
+    /* Smaller padding for a more compact size */
+    font-size: 14px;
+    /* Smaller font size */
+    font-weight: bold;
+    /* margin-top: 10px; */
+    margin: 0;
     cursor: pointer;
     border-radius: 5px;
+    /* Slightly smaller border radius to match the size */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
 }
 
 footer {

@@ -8,8 +8,10 @@ const jsonEditor = document.getElementById('json-editor');
 
 let currentJsonData = {};
 // console.log(Object.isFrozen(currentJsonData)); // Should return false
-let prefixBinary;
-let postfixBinary;
+let prefixBinary = new Uint8Array([0, 1, 0, 0, 0, 255, 255, 255, 255, 1, 0, 0, 0, 0, 0, 0, 0, 6, 1, 0, 0, 0, 242, 2]);
+console.log('prefix binary:', prefixBinary);
+let postfixBinary = new Uint8Array([11]);
+console.log('postfix binary:', postfixBinary);
 
 fileInput.addEventListener('change', async (event) => {
     const file = event.target.files[0];
@@ -46,6 +48,19 @@ function renderJsonEditor() {
         input.id = `field-${key}`;
         input.value = currentJsonData[key];
 
+        var incrementButton;
+        if (key == 'PlayerId') {
+            incrementButton = document.createElement('button');
+            incrementButton.textContent = '+';
+            incrementButton.addEventListener('click', () => {
+                console.log(currentJsonData)
+                let playerId = currentJsonData['PlayerId'];
+                currentJsonData['PlayerId'] = (BigInt('0x' + playerId) + 1n).toString(16);
+                input.value = currentJsonData[key];
+                updateQR();
+            });
+        }
+
         // Add change listener to update JSON and regenerate QR
         input.addEventListener('input', (event) => {
             if (event.target.value.includes(',')) {
@@ -58,6 +73,9 @@ function renderJsonEditor() {
 
         fieldDiv.appendChild(label);
         fieldDiv.appendChild(input);
+        if (key == 'PlayerId') {
+            fieldDiv.appendChild(incrementButton);
+        }
         jsonEditor.appendChild(fieldDiv);
     }
 }
@@ -172,6 +190,7 @@ function processQR() {
 function updateQR() {
     const jsonStri = JSON.stringify(currentJsonData);
     const jsonBinary = stringToBinary(jsonStri);
+    console.log(currentJsonData);
 
     // very important
     // jsonLength - (firstByte value) = ((lastByte value) - 1) * 128
@@ -364,4 +383,74 @@ function hexStringToUint8Array(hexString) {
     }
 
     return uint8Array;
+}
+
+var defaultJson = {
+    "Version": 1,
+    "PlayerId": "56ea280284b34459",
+    "PlayerName": "Jeremy",
+    "PartnerId": 201800,
+    "Sex": 1,
+    "EyeParts": 4,
+    "HairStyle": 1013,
+    "EyeColorIndex": 2,
+    "HairColorIndex": 0,
+    "SkinColorIndex": 1,
+    "PlayerClothes": [
+        1400142,
+        291,
+        236,
+        5053059,
+        322,
+        0,
+        0,
+        0
+    ],
+    "PartnerClothes": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "BGColor": 2,
+    "Posing": 4,
+    "Level": 179,
+    "PlayerMyDesignId": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "PartnerMyDesignId": [
+        "",
+        "",
+        ""
+    ]
+}
+
+var url = window.location.href
+var urlArr = url.split('?')
+if (urlArr.length > 1) {
+    var urlParams = urlArr[1].split('&')
+    if (urlParams.length > 0) {
+        var urlParamObj = {}
+        urlParams.forEach((param) => {
+            var keyVal = param.split('=')
+            urlParamObj[keyVal[0]] = keyVal[1]
+        })
+        console.log(urlParamObj)
+        var partnerId = urlParamObj['PartnerId']
+        if (partnerId) {
+            defaultJson.PartnerId = partnerId
+            currentJsonData = defaultJson
+            console.log(currentJsonData)
+            renderJsonEditor()
+            updateQR()
+        }
+    }
 }
