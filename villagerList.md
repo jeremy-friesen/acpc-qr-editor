@@ -419,3 +419,66 @@ Data Sources: [Nookipedia](https://nookipedia.com/wiki/Villager/Pocket_Camp), [A
 | Rio        | ![Rio icon](images/PC-VillagerFace-Rio.webp)              |    241100 | ![modern](images/Pc-banner-modern.webp)         | ![steel](images/steel.png)         | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=241100) |
 | Azalea     | ![Azalea icon](images/PC-VillagerFace-Azalea.webp)        |    241200 | ![natural](images/Pc-banner-natural.webp)       | ![paper](images/paper.png)         | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=241200) |
 | Faith      | ![Faith icon](images/PC-VillagerFace-Faith.webp)          |    241300 | ![rustic](images/Pc-banner-rustic.webp)         | ![paper](images/paper.png)         | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=241300) |
+
+## Special Characters
+
+Thanks to [this commenter](https://www.reddit.com/r/ACPocketCamp/comments/1h9xmxh/comment/m1z24y0/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) for documenting special partner IDs :)
+
+<span style="color:red;">
+Note: Receiving gifts from campers with special characters will cause the game to crash. There might be other issues as well. Consider backing up your save before importing or talking to them.
+</span>
+
+| Cyrus                     | ![Cyrus icon](images/Cyrus_PC_Character_Icon.png)          | 100100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100100) |
+|---------------------------|------------------------------------------------------------|-------:|------------------------------------------------------------------------------|
+| Reese (red overalls)      | ![Reese icon](images/Reese_PC_Character_Icon.png)          | 100200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100200) |
+| Reese (blue overalls)     | ![Reese icon](images/Reese_PC_Character_Icon.png)          | 100201 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100201) |
+| Chip                      | ![Chip icon](images/Chip_PC_Character_Icon.png)            | 100300 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100300) |
+| Katrina                   | ![Katrina icon](images/Katrina_PC_Character_Icon.png)      | 100600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100600) |
+| Nat                       | ![Nat icon](images/120px-Nat_PC_Character_Icon.png)        | 100700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100700) |
+| Saharah                   | ![Sahara icon](images/Saharah_PC_Character_Icon.png)       | 100800 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100800) |
+| Beppe                     | ![Beppe icon](images/Beppe_PC_Character_Icon.png)          | 100900 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100900) |
+| Carlos                    | ![Carlo icon](images/Carlo_PC_Character_Icon.png)          | 101000 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101000) |
+| Giovanni                  | ![Giovanni icon](images/Giovanni_PC_Character_Icon.png)    | 101100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101100) |
+| K.K. Slider               | ![K.K. Slider icon](images/K.K._PC_Character_Icon.png)     | 101200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101200) |
+| Gracie                    | ![Gracie icon](images/Gracie_PC_Character_Icon.png)        | 101400 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101400) |
+| Label/Labelle             | ![Labelle icon](images/Labelle_PC_Character_Icon.png)      | 101500 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101500) |
+| Label/Labelle (winter)    | ![Labelle icon](images/Labelle_PC_Character_Icon.png)      | 101501 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101501) |
+| Mabel                     | ![Mable icon](images/Mabel_PC_Character_Icon.png)          | 101600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101600) |
+| Sable                     | ![Sable icon](images/Sable_PC_Character_Icon.png)          | 101700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101700) |
+| Lloyd                     | ![Lloyd icon](images/Lloid_PC_Character_Icon.png)          | 101800 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=101800) |
+| Kapp’n                    | ![Kapp’n icon](images/Kapp'n_PC_Character_Icon.png)        | 102300 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=102300) |
+| Katie                     | ![Katie icon](images/Katie_PC_Character_Icon.png)          | 102500 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=102500) |
+| Timmy/Tommy               | ![Timmy/Tommy icon](images/Nookling_PC_Character_Icon.png) | 102600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=102600) |
+| Timmy/Tommy               | ![Timmy/Tommy icon](images/Nookling_PC_Character_Icon.png) | 102700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=102700) |
+| Porter                    | ![Porter icon](images/Porter_PC_Character_Icon.png)        | 102900 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=102900) |
+| Resetti                   | ![Resetti icon](images/Resetti_PC_Character_Icon.png)      | 103100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103100) |
+| Lottie (fancy dress)      | ![Lottie icon](images/Lottie_PC_Character_Icon.png)        | 103200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103200) |
+| Lottie (HH outfit)        | ![Lottie icon](images/Lottie_PC_Character_Icon.png)        | 103201 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103201) |
+| Lottie (black HH outfit)  | ![Lottie icon](images/Lottie_PC_Character_Icon.png)        | 103202 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103202) |
+| Lottie (tropical)         | ![Lottie icon](images/Lottie_PC_Character_Icon.png)        | 103203 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103203) |
+| Blathers                  | ![Blathers icon](images/Blathers_PC_Character_Icon.png)    | 103400 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103400) |
+| Celeste                   | ![Celeste icon](images/Celeste_PC_Character_Icon.png)      | 103500 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103500) |
+| Pavé                      | ![Pavé icon](images/Pavé_PC_Character_Icon.png)            | 103600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103600) |
+| Pelly                     | ![Pelly icon](images/Pelly_PC_Character_Icon.png)          | 103700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103700) |
+| Brewster                  | ![Brewster icon](images/Brewster_PC_Character_Icon.png)    | 103900 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=103900) |
+| Jack                      | ![Jack icon](images/Jack_PC_Character_Icon.png)            | 104000 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104000) |
+| Pete                      | ![Pete icon](images/Pete_PC_Character_Icon.png)            | 104200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104200) |
+| Harriet                   | ![Harriet icon](images/Harriet_PC_Character_Icon.png)      | 104400 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104400) |
+| Zipper                    | ![Zipper icon](images/Zipper_PC_Character_Icon.png)        | 104500 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104500) |
+| Tom Nook                  | ![Tom Nook icon](images/Tom_Nook_PC_Character_Icon.png)    | 104600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104600) |
+| Gulliver                  | ![Gulliver icon](images/Gulliver_PC_Character_Icon.png)    | 104700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104700) |
+| Pascal                    | ![Pascal icon](images/Pascal_PC_Character_Icon.png)        | 104800 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104800) |
+| Kicks                     | ![Kicks icon](images/Kicks_PC_Character_Icon.png)          | 104900 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=104900) |
+| Leif                      | ![Leif icon](images/Leif_PC_Character_Icon.png)            | 105000 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=105000) |
+| Jingle                    | ![Jingle icon](images/Jingle_PC_Character_Icon.png)        | 105100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=105100) |
+| Isabelle (Green sweater)  | ![Isabelle icon](images/Isabelle_PC_Character_Icon.png)    | 105200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=105200) |
+| Isabelle (Orange sweater) | ![Isabelle icon](images/Isabelle_PC_Character_Icon.png)    | 106700 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106700) |
+| Franklin                  | ![Franklin icon](images/Franklin_PC_Character_Icon.png)    | 105600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=105600) |
+| Rover                     | ![Rover icon](images/Rover_PC_Character_Icon.png)          | 105900 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=105900) |
+| Daisy Mae                 | ![Daisy Mae icon](images/Daisy_Mae_PC_Character_Icon.png)  | 106000 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106000) |
+| Wisp                      | ![Wisp icon](images/Wisp_PC_Character_Icon.png)            | 106100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106100) |
+| CJ                        | ![CJ icon](images/C.J._PC_Character_Icon.png)              | 106200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106200) |
+| Flick                     | ![Flick icon](images/Flick_PC_Character_Icon.png)          | 106300 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106300) |
+| Harvey                    | ![Harvey icon](images/Harvey_PC_Character_Icon.png)        | 106400 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106400) |
+| Orville                   | ![Orville icon](images/Orville_PC_Character_Icon.png)      | 106500 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106500) |
+| Wilbur                    | ![Wilbur icon](images/Wilbur_PC_Character_Icon.png)        | 106600 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=106600) |
