@@ -430,8 +430,9 @@ Thanks to [this commenter](https://www.reddit.com/r/ACPocketCamp/comments/1h9xmx
 Note: Receiving gifts from campers with special characters will cause the game to crash. There might be other issues as well. Consider backing up your save before importing or talking to them.
 </span>
 
-| Cyrus                     | ![Cyrus icon](images/Cyrus_PC_Character_Icon.png)          | 100100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100100) |
+| Character | Icon | PartnerID | QR Code |
 | ------------------------- | ---------------------------------------------------------- | -----: | ---------------------------------------------------------------------------- |
+| Cyrus                     | ![Cyrus icon](images/Cyrus_PC_Character_Icon.png)          | 100100 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100100) |
 | Reese (red overalls)      | ![Reese icon](images/Reese_PC_Character_Icon.png)          | 100200 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100200) |
 | Reese (blue overalls)     | ![Reese icon](images/Reese_PC_Character_Icon.png)          | 100201 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100201) |
 | Chip                      | ![Chip icon](images/Chip_PC_Character_Icon.png)            | 100300 | [Generate](https://jeremy-friesen.github.io/acpc-qr-editor?PartnerId=100300) |
